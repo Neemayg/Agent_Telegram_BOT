@@ -1,0 +1,21 @@
+state,gender,unemployment_rate
+Delhi,Female,8.5
+Delhi,Male,5.2
+Maharashtra,Female,6.1
+Maharashtra,Male,4.3
+Delhi,Female,9.1
+Delhi,Male,5.5
+Assam,Female,7.2
+Assam,Male,6.0
+Kerala,Female,12.4
+Kerala,Male,7.1
+Karnataka,Female,5.0
+Karnataka,Male,3.8
+Uttar Pradesh,Female,7.5
+Uttar Pradesh,Male,5.0
+West Bengal,Female,6.8
+West Bengal,Male,4.9
+Tamil Nadu,Female,6.2
+Tamil Nadu,Male,4.1
+Gujarat,Female,3.4
+Gujarat,Male,2.1

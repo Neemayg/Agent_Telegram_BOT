@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: data_analyst_bot
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - BOT_TOKEN=${BOT_TOKEN}
+      - BASE_URL=${BASE_URL}
+    volumes:
+      - ./logs:/workspace/logs
+      - ./.cache:/workspace/.cache
+    restart: unless-stopped
